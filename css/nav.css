@@ -35,15 +35,26 @@
                 font-family: Arial, Helvetica, sans-serif;
             }
             
+            .banner {
+                background-image: url('D:/ITESO/10_semestre/PAE/Tareas/Tarea1/assets/images/hero_banner.jpg');
+                background-size: contain;
+                height: 300px;
+                width: 100%;
+                align-items: center;
+                margin-bottom: 32px;
+            }
+            
             @media screen and (min-width: 600px) {
                 .topnav>div {
                     width: 20%;
                 }
+                .banner {
+                    height: 400px;
+                }
             }
             
             @media screen and (min-width: 900px) {
-                ul.sidenav li a {
-                    text-align: center;
-                    float: none;
+                .banner {
+                    height: 600px;
                 }
             }
