@@ -44,6 +44,14 @@
                 margin-bottom: 32px;
             }
             
+            .video {
+                background-size: contain;
+                height: 300px;
+                width: 100%;
+                align-items: center;
+                margin-bottom: 32px;
+            }
+            
             @media screen and (min-width: 600px) {
                 .topnav>div {
                     width: 20%;
@@ -51,10 +59,16 @@
                 .banner {
                     height: 400px;
                 }
+                .video {
+                    display: block;
+                }
             }
             
             @media screen and (min-width: 900px) {
                 .banner {
                     height: 600px;
+                }
+                .video {
+                    display: block;
                 }
             }
